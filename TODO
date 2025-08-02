@@ -1,0 +1,88 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    /// 1
+/*
+    int a, b, c;
+    cout << "a ni kiriting: "; cin >> a;
+    cout << "b ni kiriting: "; cin >> b;
+    cout << "c ni kiriting: "; cin >> c;
+
+    cout << (a+b+c)/3 << " -> O'rta arifmetigi"<<endl;
+
+*/
+
+    /// 2
+
+/*
+    int a;
+    cout << "a ni kiriting: "; cin>>a;
+    cout << 4*a << " -> P" << endl;
+
+*/
+
+    /// 3
+/*
+    int a, b;
+    cout << "a ni kiritng: "; cin>>a;
+    cout << "b ni kiritng: "; cin>>b;
+
+    cout << a*b << " -> Yuzasi" << endl;
+    cout << (a*b)*2 << " -> Peremetiri" << endl;
+
+*/
+
+    /// 4
+
+/*
+    int a;
+    cout << "a ni kiring: "; cin>>a;
+    cout << a*a*a << endl;
+    cout << 6*a*a << endl;
+
+*/
+
+    /// 5
+
+    /// Mana shu yerda nega a ni temp ga tenlaganimizi sorab olishim kerak Behzod akadan
+/*
+    int a,b,c;
+    cout << "a ni kiriting: "; cin >> a;
+    cout << "b ni kiriting: "; cin >> b;
+    cout << "c ni kiriting: "; cin >> c;
+
+    int temp = a;
+    a = b;
+    b = c;
+    c = temp;
+
+    cout << a << endl;
+    cout << b << endl;
+    cout << c << endl;
+*/
+
+    /// 6
+
+/*
+    int a;
+    cout << "a ni kiriting: "; cin>>a;
+    cout << pow(a, 2) << " -> Kvdarati" << endl;
+*/
+
+    /// 7
+
+    int a;
+
+
+
+    cout << "a ni kirit: "; cin>>a;
+    cout<<a/11200<< " -> dollor" << endl;
+
+
+
+}
+

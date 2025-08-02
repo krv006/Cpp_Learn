@@ -1,0 +1,122 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    /*
+        int son = 0, summa = 0;
+
+    while (true){
+        cout << "Son: ";
+        cin >> son;
+        if (son < 0) {
+            cout << "Dastur to'xtadi.\n";
+            break;
+        }
+
+        if (son > 50){
+            continue;
+        }
+
+        summa += son;
+    }
+
+    cout << endl;
+    cout << summa << " -> Natija" << endl;
+    */
+
+
+
+    /*
+    int n, sanoq=0;
+    cout << "n = "; cin>>n;
+
+    for(int i=1;i<=n;i++){
+        if(n%2 ==0){
+            sanoq++;
+        }
+    }
+
+    if(sanoq==2){
+        cout<< "Tub son"<< endl;
+    }
+    else{
+        cout<<"Tub son emas"<<endl;
+
+    }
+    */
+
+
+    /*
+    int n, m;
+    cout << "n = "; cin >> n;
+    cout << "m = "; cin >> m;
+
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
+            if (j % 2 == 0){
+                cout << n << " ";
+            }
+            else{
+                cout << m << " ";
+            }
+        }
+
+        cout << endl;
+
+    }
+    */
+
+    /*
+        int n;
+    cout << "n = ";
+    cin >> n;
+    for (int i = 2; i <= n; i++) {
+        int sanoq = 0;
+        for (int j = 1;  j <= i; j++) {
+            if (i % j == 0) {
+                sanoq++;
+            }
+        }
+
+        if (sanoq == 2) {
+            cout << i << " ";
+        }
+    }
+
+    cout << endl;
+    */
+
+
+/*
+    for(int i=2; i <= 9; i++){
+        for(int j=1; j<=9; j++){
+            cout << i << " x " << j << "= " << i*j<< endl;
+        }
+    }
+*/
+
+/*
+    int n;
+    cout<<" ";
+    cin>>n;
+    for (int i=0; i<n; i++){
+        for (int j=0; j<n; j++){
+            if(i == j){
+                cout << "("<<i<<","<<j<<")";
+            }
+            else{
+                cout<<"     ";
+            }
+        }
+            cout<<endl;
+    }
+*/
+
+
+
+
+
+
+
+    return 0;
+}
