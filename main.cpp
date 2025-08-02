@@ -20,6 +20,21 @@ void change_number(int a, int b) {
     cout << a << "->A, " << b << "->B" << endl;
 }
 
+/// 23 topshiriq
+
+void distance(int n, int s) {
+
+}
+
+
+
+/// 26 topshiriq
+
+void change_hours(float a) {
+    cout << a / 3600 << " soat" << endl;
+}
+
+
 int main() {
     // 10 topshiriq
 
@@ -193,9 +208,79 @@ int main() {
 
 
 
+    // 22 topshiriq
+
+/*
+     int a, b;
+    cout << "a: ";
+    cin >> a;
+    cout << "b: ";
+    cin >> b;
+
+    cout << endl;
+
+    a = a * 1440;
+    b = b * 60;
+    double c = a + b;
+    cout << c << " -- min" << endl;
+ */
+
+    // 23 topshiriq
+
+    /*
+    int s;
+    int n = 7;
+
+    cout << endl;
+
+    cout << "s: ";
+    cin >> s;
+    cout << "1 soatda 7km bosib otadi ";
+    cout << endl;
+
+    cout << s / n << " soatda " << s << " km di bosib otadi " << endl;
+     */
+
+    // 24 topshiriq
+
+/*
+     int a, b;
+    cout << "Haftani kiriting: ";
+    cin >> a;
+    cout << "Sutkani kiriting: ";
+    cin >> b;
+    cout << endl;
+    a = 1 * 7;
+    cout << (a + b) * 24 << " <-" << endl;
+ */
+
+    // 26 topshiriq
+
+    /*
+     float a;
+    cout << "a: ";
+    cin >> a;
+    change_hours(a);
+     */
 
 
+    // 28 topshiriq
 
+/*
+     int a, r1, r10, r100;
+    cout << "a: ";
+    cin >> a;
+
+    if (a <= 999) {
+        r1 = a % 10;
+        r10 = (a / 10) % 10;
+        r100 = (a / 100) % 10;
+
+        cout << (r1 * r10) * r100 << " -> sonlar kopaytmasi" << endl;
+
+    } else cout << " 3 xonali son yoz ";
+
+ */
 
 
 
