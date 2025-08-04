@@ -282,11 +282,72 @@ int main() {
 
  */
 
+    // 32 topshiriq
+
+/*
+     int a;
+    cout << "a: ";
+    cin >> a;
+
+    if (a >= 1000 && a <= 9999) {
+        int check = a;
+        bool found = false;
+        while (check > 0) {
+            int digit = check % 10;
+            if (digit == 3) {
+                found = true;
+                break;
+            }
+            check /= 10;
+        }
+
+        if (found)
+            cout << "son ichida 3 bor" << endl;
+        else
+            cout << "son ichida 3 yoq" << endl;
+
+    } else
+        cout << "xato" << endl;
+
+ */
+
+    // 34 topshiriq
+
+/*
+     int a;
+    cout << "a=";
+    cin >> a;
+
+    switch (a) {
+        case 1:
+        case 2:
+        case 12:
+            cout << "Qish" << endl;
+            break;
+        case 3:
+        case 4:
+        case 5:
+            cout << "Bahor" << endl;
+            break;
+
+        case 6:
+        case 7:
+        case 8:
+            cout << "Yoz" << endl;
+            break;
+
+        case 9:
+        case 10:
+        case 11:
+            cout << "Kuz" << endl;
+            break;
+
+    }
+ */
 
 
 
-
-
+    main();
     return 0;
 
 }
