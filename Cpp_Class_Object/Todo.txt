@@ -1,0 +1,100 @@
+🧠 1-Task: Student Information System
+    🎯 Maqsad:
+    Student class yarat. Unda quyidagi field’lar bo‘lsin:
+
+    name, age, grade, school
+
+    🔧 Methodlar:
+    setData() — foydalanuvchidan ma’lumotlarni oladi
+
+    display() — ekranga chiqaradi
+
+    🎁 Bonus:
+    bool isPassed() methodi yarating: agar grade > 60 bo‘lsa true qaytaradi.
+
+🚗 2-Task: Car Speed Simulation
+    🎯 Maqsad:
+    Car class yarating. Field’lar:
+
+    model, speed
+
+    🔧 Methodlar:
+    accelerate() — speed +10
+
+    brake() — speed -10
+
+    displaySpeed() — hozirgi speed’ni chiqaradi
+
+    🧪 E'tibor: speed 0 dan pastga tushmasin!
+
+📦 3-Task: Product Price Calculator
+    🎯 Maqsad:
+    Product class yarating. Field’lar:
+
+    name, price, quantity
+
+    🔧 Methodlar:
+    setData() — userdan oladi
+
+    totalPrice() — price × quantity
+
+    applyDiscount(int percent) — narxdan % chegirma qiladi
+
+🧮 4-Task: Calculator class
+        🎯 Maqsad:
+        Calculator class yarating. Field:
+
+        a, b
+
+        🔧 Methodlar:
+        sum(), subtract(), multiply(), divide()
+
+        🧪 E'tibor: bo‘lishda b == 0 bo‘lsa, xato xabari chiqsin.
+
+🎰 5-Task: Bank Account System 💰
+    🎯 Maqsad:
+    BankAccount class yarating. Field’lar:
+
+    owner, balance
+
+    🔧 Methodlar:
+    deposit(int sum)
+
+    withdraw(int sum)
+
+    displayBalance()
+
+    🧪 E’tibor:
+
+    Pul olib bo‘lmaydigan miqdorda withdraw() chaqilsa, “balans yetarli emas” deb chiqsin.
+
+👑 Super Task: Library Management System (mini loyihacha)
+    🎯 Maqsad:
+    Book class (title, author, year)
+
+    Library class — ichida array of Book
+
+    Methodlar:
+
+    addBook()
+
+    listBooks()
+
+    searchBook(string title)
+
+    🧠 Bu orqali class ichida object array ishlashni o‘rganasan!
+
+    ☑️ Qaysi taskdan boshlaymiz?
+    Soddasidan:
+
+     Student
+
+     Car
+
+     Product
+
+    Murakkabrog‘i:
+
+     Bank
+
+     Library mini project
