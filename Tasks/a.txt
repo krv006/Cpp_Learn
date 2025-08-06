@@ -1,0 +1,13 @@
+1 dan 100 gacha juft sonlarni chiqar
+
+Son tubmi yoki yo‘q
+
+Massivdagi eng katta element
+
+Stringda nechta a harfi bor
+
+Toq sonlar yig‘indisi
+
+Foydalanuvchidan ism kiritib, teskari chiqarish
+
+C++ da radiusdan yuzani hisoblash (double bilan)
