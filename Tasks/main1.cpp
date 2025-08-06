@@ -112,6 +112,21 @@ int main() {
     cout << "Natija-> " << boolalpha << (a != b && b != c && c != a) << endl;
 
  */
+
+    string s = "Hello, World!";
+
+    cout << "Uzunligi: " << s.length() << endl;
+    cout << "Substring (0-5): " << s.substr(0, 5) << endl;
+    cout << "'World' so'zining indeksi: " << s.find("World") << endl;
+
+    s.replace(7, 5, "C++");
+    cout << "Almashtirilgan: " << s << endl;
+
+    s.insert(0, "Salom, ");
+    cout << "Insert qilingan: " << s << endl;
+
+
+
     return 0;
 
 }
