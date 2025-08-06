@@ -79,15 +79,22 @@ int main() {
         cout << s[i];
     }
 
+*/
+
+/*
+    int a;
+    cout << "a ";
+    cin >> a;
+    cout << "Natija-> " << boolalpha << (a > 9 && a <= 99 && a % 2 == 1) << endl;
+
  */
 
-    
-
-
-
-
-
-
+    int a, b;
+    cout << "a ";
+    cin >> a;
+    cout << "b ";
+    cin >> b;
+    cout << "Natija-> " << boolalpha << (a > 0 && b < 0 || a < 0 && b > 0) << endl;
 
     return 0;
 
