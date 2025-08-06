@@ -88,7 +88,7 @@ int main() {
     cout << "Natija-> " << boolalpha << (a > 9 && a <= 99 && a % 2 == 1) << endl;
 
  */
-
+/*
     int a, b;
     cout << "a ";
     cin >> a;
@@ -96,6 +96,22 @@ int main() {
     cin >> b;
     cout << "Natija-> " << boolalpha << (a > 0 && b < 0 || a < 0 && b > 0) << endl;
 
+ */
+
+
+
+/*
+
+    int a, b, c;
+    cout << "a ";
+    cin >> a;
+    cout << "b ";
+    cin >> b;
+    cout << "c ";
+    cin >> c;
+    cout << "Natija-> " << boolalpha << (a != b && b != c && c != a) << endl;
+
+ */
     return 0;
 
 }
