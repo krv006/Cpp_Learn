@@ -113,6 +113,7 @@ int main() {
 
  */
 
+/*
     string s = "Hello, World!";
 
     cout << "Uzunligi: " << s.length() << endl;
@@ -125,6 +126,27 @@ int main() {
     s.insert(0, "Salom, ");
     cout << "Insert qilingan: " << s << endl;
 
+*/
+
+/*
+int a = 15, count = 0;
+    int n;
+
+    cout << "Son kiriting: ";
+    cin >> n;
+    while (n != a) {
+        if (n > a) {
+            cout << "Katta. Yana urinib ko'ring: ";
+        } else {
+            cout << "Kichik. Yana urinib ko'ring: ";
+        }
+        count++;
+        cin >> n;
+    }
+
+    cout << count << " -> Shuncha urinishda topdi" << endl;
+
+*/
 
 
     return 0;
